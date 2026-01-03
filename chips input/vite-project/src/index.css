@@ -1,0 +1,19 @@
+.app{
+  text-align: center;
+}
+.input{
+  padding: 10px;
+}
+.chip{
+  display: inline-block;
+  padding: 13px;
+  background-color: rgb(196, 195, 195);
+  margin: 10px;
+ border-radius: 15px;
+ user-select: none;
+}
+.btn{
+  margin-left: 7px;
+  cursor: pointer;
+  user-select: none;
+}
