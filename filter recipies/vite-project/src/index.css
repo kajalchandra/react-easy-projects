@@ -1,0 +1,32 @@
+.app{
+  text-align: center;
+}
+.cards-container{
+  display: flex;
+ 
+  flex-wrap: wrap;
+}
+.card{
+  border: 1px solid black;
+  width: 200px;
+  margin:5px;
+}
+.image{
+  margin-top: 7px;
+  width: 210px;
+  max-width: 170px;
+}
+.btn{
+  background-color: rgb(23, 174, 23);
+  padding: 9px;
+  color: white;
+  border: none;
+  outline: none;
+  
+}
+.top-btn{
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 20px;
+  margin-block: 20px;
+}
