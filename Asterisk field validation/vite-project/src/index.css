@@ -1,0 +1,45 @@
+.app{
+  border: 1px solid black;
+  width: 500px;
+  margin: auto;
+  height: 400px;
+   background-color: rgba(201, 62, 201, 0.641);
+}
+.info-container{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+ 
+}
+
+.input{
+    padding: 14px;
+   margin: 15px;
+   background-color: whitesmoke;
+   border-radius: 5px;
+   border: none;
+   width: 400px;
+   font-size: 18px;
+}
+.btn{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 15px;
+  border-radius:6px ;
+  background-color: rgba(0, 0, 0, 0.571);
+  border: none;
+  text-align: center;
+  color:white;
+  width:350px ;
+}
+.label{
+  font-size:18px ;
+  font-weight:600;
+  
+}
+.error{
+  color: rgb(221, 255, 0);
+}
+.asterisk{
+  color: yellow;
+}
