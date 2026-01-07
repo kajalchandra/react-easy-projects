@@ -1,0 +1,52 @@
+2️⃣ What React wants
+
+React rendering should be:
+
+Pure
+
+Predictable
+
+No browser manipulation
+
+But scroll listeners:
+
+Talk to window
+
+Stay alive after render
+
+Need cleanup
+
+👉 That’s why React gives useEffect
+
+1️⃣ What kind of code is this?
+window.addEventListener("scroll", handleScroll)
+
+
+This is:
+❌ Not UI
+❌ Not JSX
+❌ Not state calculation
+
+✅ It interacts with the browser
+
+📌 That is called a SIDE EFFECT
+
+2️⃣ What React wants
+
+React rendering should be:
+
+Pure
+
+Predictable
+
+No browser manipulation
+
+But scroll listeners:
+
+Talk to window
+
+Stay alive after render
+
+Need cleanup
+
+👉 That’s why React gives useEffect

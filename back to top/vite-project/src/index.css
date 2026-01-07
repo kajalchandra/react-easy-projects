@@ -1,0 +1,17 @@
+.app{
+  text-align: center;
+}
+
+.backToTop{
+  margin-top: 2.5rem;
+  text-align: center;
+
+}
+.backtotop-btn{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 14px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
